@@ -144,7 +144,7 @@ namespace _tree_private {
 /////////
 // node classes
 
-//briliant evil-genius technique adapted from the gnu stl list
+//brilliant evil-genius technique adapted from the gnu stl list
 //implementation - node_base is used for sentinel nodes, and static_cast to
 //node is used for when we want to access the data - this avoids the overhead
 //of polymorphism and the wasted sizeof(T) space of using node for sentinels
